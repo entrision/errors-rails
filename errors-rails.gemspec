@@ -1,7 +1,7 @@
 require_relative 'lib/errors/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "errors-rails"
+  spec.name          = "errors_rails"
   spec.version       = Errors::Rails::VERSION
   spec.authors       = ["Robert D. Cotey II"]
   spec.email         = ["rcotey@entrision.com"]
