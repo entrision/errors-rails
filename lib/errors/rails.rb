@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 require 'errors/rails/version'
-require 'errors/rails/railtie' if defined?(Rails::Railtie)
+require 'errors/rails/railtie'  if defined?(Rails)
+
+raskdaslkdsalk
 
 module Errors
   module Rails

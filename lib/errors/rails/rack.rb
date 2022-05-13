@@ -3,6 +3,7 @@ module Errors
     class Rack
       def initialize(app)
         @app = app
+        raise 's'
       end
 
       def call(env)
